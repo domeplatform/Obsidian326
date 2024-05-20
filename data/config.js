@@ -1,33 +1,35 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
-}
+  title: 'Dome',
+  description:
+    'This is a demo to show just how easy it is to deploy your app on Dome'
+};
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: 'Welcome to Dome',
+  desc: 'This is a demo to show just how easy it is to deploy your app on Dome'
 };
 
 export const projects = {
-  title: 'My Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  title: 'Our Projects',
+  desc: 'Examples of Projects',
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
+      title: 'SaaS Validation Template',
+      description:
+        'Boilerplate code with integrations to help you quickly validate your SaaS',
+      link: 'https://www.trydome.io/saas-template',
       github: ''
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
+      title: 'AI SaaS Template',
+      description: 'Boilerplate code to to ship your AI SaaS super fast!',
+      link: 'https://boilercode.co',
       github: 'theking-lbj/cool-app'
     },
     {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
+      title: 'Indie Spreadsheet SaaS Template',
+      description: 'Boilerplate code for monetizing any data behind a paywall',
+      link: 'https://trydome.io/indie-spreadsheet',
       github: 'theking-lbj/another-app'
     }
   ]
